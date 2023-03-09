@@ -1,0 +1,38 @@
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-container1 {
+    background: lightblue;
+    padding: 16px;
+    border: 4px solid blue;
+    gap: 8px;
+    display: flex;
+    flex-direction:column;
+    width:40%;
+    margin: 0;
+}
+
+.flex-container2 {
+    background: lightblue;
+    padding: 16px;
+    border: 4px solid blue;
+    gap: 8px;
+    display: flex;
+    flex-direction:column;
+    width:40%;
+    margin: 0;
+}
+
+.item {
+    background: peachpuff;
+    border: 4px solid salmon;
+    height: 48px;
+    flex: 1;
+    padding: 4px;
+}
+
+.item_3 {
+    flex: 2;
+}

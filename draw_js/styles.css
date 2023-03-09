@@ -1,0 +1,45 @@
+.bod {
+    background-color: #4A6FA5;
+    color: #DBE9EE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title {
+    font-size: 50px;
+}
+
+#drawbox {
+    background-color:#4F6D7A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px white solid;
+}
+
+.pixel {
+    margin: auto;
+    height: 120px;
+    width: 120px;
+    background-color: #C0D6DF;
+}
+
+#settings {
+    margin-top: 20px;
+    background-color: #166088;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.setting {
+    font-size: 24px;
+    margin-left: 24px;
+}
+
+#settings, #drawbox {
+    height: 500px;
+    width: 500px;
+}

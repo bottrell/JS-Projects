@@ -1,0 +1,23 @@
+#container {
+    display: flex;
+    background: #E6C267;
+    height: 300px;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.item{
+    color: #B96BF5;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#colorswitcher {
+    border-radius: 10px;
+    background-color: green;
+    width: 120px;
+}
+
+#colorswitcher:hover {
+    color: white;
+}
