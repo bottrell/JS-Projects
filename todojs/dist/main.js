@@ -1,0 +1,1 @@
+(()=>{console.log("hello, js");const e=document.getElementById("main");let l=document.createElement("div");l.innerHTML="hello, world!",e.append(l)})();

@@ -32,6 +32,7 @@ h1 {
     flex-wrap: wrap;
     border-radius: 10px;
     border: 10px solid black;
+    max-width: 800px;
 }
 
 .tile {
